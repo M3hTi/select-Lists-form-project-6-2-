@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0077be;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.content {
+    background-color: #ffdb94;
+    padding: 20px;
+    min-height: 300px;
+}
+
+.content h2 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    width: 180px;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.form-group select {
+    width: 200px;
+    padding: 5px;
+    font-size: 14px;
+}
